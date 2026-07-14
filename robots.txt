@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://somervillerecord.org/sitemap.xml

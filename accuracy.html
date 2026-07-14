@@ -1,0 +1,46 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How accurate is this site? — The Somerville Record</title><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; object-src 'none'; base-uri 'self'"><meta name="referrer" content="strict-origin-when-cross-origin">
+<meta property="og:title" content="How accurate is this site?">
+<meta property="og:description" content="The public record of Somerville, Massachusetts — readable, searchable, free forever.">
+<meta property="og:site_name" content="The Somerville Record">
+<meta name="description" content="The public record of Somerville, Massachusetts — readable, searchable, free forever.">
+<link rel="alternate" type="application/rss+xml" title="The Somerville Record — whole record" href="feed.xml">
+<link rel="stylesheet" href="style.css?v=60eacad2"></head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header><a class="site" href="index.html">🏛 The Somerville Record</a>
+<nav aria-label="Site"><a href="meetings/index.html">Meetings</a><a href="matters/index.html">Matters</a>
+<a href="bodies/index.html">Bodies</a><a href="search.html">Search</a></nav></header>
+<main id="main" data-pagefind-body><h1>How accurate is this site?</h1>
+<p class="meta">Audited 2026-07-13 · sample seed 20260712 ·
+<a href="audit/audit_somerville_matters.csv">raw results (CSV)</a> ·
+<a href="audit/audit_somerville_matters.py">audit code</a></p>
+
+<p>This site is assembled by software (much of it AI-written) from the
+city's Legistar API. Software makes mistakes, so we measure ours in
+public: we drew <b>1,000 matters at random</b> — fixed, published seed, so
+anyone can re-draw the identical sample — fetched the city's live API
+record for each, and compared field by field.</p>
+
+<div class="statband">
+  <span class="stat"><span class="n" style="font-size:1.3em">1,000/1,000</span><span class="k">city records resolved</span></span>
+  <span class="stat"><span class="n" style="font-size:1.3em">100.0%</span><span class="k">titles exact</span></span>
+  <span class="stat"><span class="n" style="font-size:1.3em">100.0%</span><span class="k">file numbers exact</span></span>
+  <span class="stat"><span class="n" style="font-size:1.3em">1</span><span class="k">fields changed since capture</span></span>
+</div>
+
+<h2>What we compared</h2>
+<ul><li><b>File</b>: 1,000 of 1,000 byte-exact — 0 mismatches.</li><li><b>Title</b>: 1,000 of 1,000 byte-exact — 0 mismatches.</li><li><b>Type</b>: 1,000 of 1,000 byte-exact — 0 mismatches.</li><li><b>Status</b>: 999 of 1,000 byte-exact, 1 changed since our capture.</li><li><b>Intro</b>: 1,000 of 1,000 byte-exact — 0 mismatches.</li></ul>
+
+<h2>Every deviation found (1)</h2><table><tr><th>Matter</th><th>Type</th><th>Explanation</th></tr><tr><td class='mono'>26-0051</td><td>status changed</td><td class='dim'>status: ours &#x27;&#x27; vs &#x27;&#x27;;  — in the run this was the city updating the record the same day as the audit; the cache refreshes on the next pull</td></tr></table>
+
+<h2>Method, honestly</h2>
+<p>The comparison is against what the city's API returns <i>today</i> —
+when a clerk updates a matter after we capture it, that surfaces here as
+a deviation until the next data pull. The audit code, the seed, and the
+raw results are published above; the auditor is software too, so check
+the checker. Found something wrong anyway? Every page has an error-report
+link in its footer — corrections are public.</p></main>
+<footer>Assembled from the public record via the City’s Legistar API. Unofficial.
+Documents link to the City’s own servers. Part of <a href="https://municipalrecord.org">Municipal Record</a>.<br>
+<a href="https://github.com/municipalrecord/somerville-record/issues/new?title=Error%20on%20How%20accurate%20is%20this%20site%3F&labels=error&body=Page%3A%20How%20accurate%20is%20this%20site%3F%0A%0AWhat%27s%20wrong%20%28what%20does%20the%20page%20say%2C%20and%20what%20does%20the%20official%20record%20say%3F%29%3A%0A%0A">Report an error on this page</a> (<a href="mailto:contact@municipalrecord.org?subject=Error%20on%20How%20accurate%20is%20this%20site%3F&body=Page%3A%20How%20accurate%20is%20this%20site%3F%0A%0A%0A">or email us</a>) — corrections are <a href="https://github.com/municipalrecord/somerville-record/issues?q=label%3Aerror">public</a>.</footer></body></html>

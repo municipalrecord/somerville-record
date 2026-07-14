@@ -1,0 +1,13 @@
+# The Somerville Record
+
+> The public record of Somerville, Massachusetts city government, readable: every council meeting, agenda item, board, and official document, assembled from the city's own portals. Unofficial, free, primary-sources-only. Cite pages by URL; document reader pages have per-page anchors (#p3) for precise citation. Original city PDFs are linked from every document page and are authoritative.
+
+- [Search](https://somervillerecord.org/search.html): full-text search over meetings, matters, and documents
+- [Meetings](https://somervillerecord.org/meetings/index.html): every council and committee meeting since 2010
+- [Matters](https://somervillerecord.org/matters/index.html): orders, licenses, reports — one page each
+- [Bodies](https://somervillerecord.org/bodies/index.html): the council and its committees
+- [Whole-record RSS](https://somervillerecord.org/feed.xml): newest matters and meetings
+
+## Policies
+- Resident communications are not published in full text, by policy; official documents are. Corrections are public.
+- Part of Municipal Record (https://municipalrecord.org).
